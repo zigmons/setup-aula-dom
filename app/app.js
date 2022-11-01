@@ -33,6 +33,15 @@ const produtos = [
     }
 ]
 
+// Mockup de Banco de Dados de usuario
+
+const admin ={
+    email: "admin@gmail.com",
+    password: "admin",
+}
+
+
+
 function showLogin(){
     document.getElementById("div-form-login").style.visibility="visible"
 }
