@@ -32,3 +32,7 @@ const produtos = [
         descricao: "Echo Dot (3ª Geração): Smart Speaker com Alexa - Cor Preta"       
     }
 ]
+
+function showLogin(){
+    document.getElementById("div-form-login").style.visibility="visible"
+}
