@@ -44,10 +44,16 @@ body{
     visibility: hidden;
 }
 
-#galeria-de-produtos{
-    display: flex;
+/* #galeria-de-produtos{
+    display:flex;
+    flex-direction: row;
+} */
+
+#div-galeria{
+    display:flex;
     flex-direction: row;
 }
+
 
 .produto{
     width: 20%;
